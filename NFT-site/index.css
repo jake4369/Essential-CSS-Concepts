@@ -61,6 +61,22 @@ section {
   padding: 45px 0;
 }
 
+.section-two {
+  color: #f5f5f5;
+  background: #5f29a3;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.flex-container img {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
 .main-image {
   width: 100%;
   margin-bottom: 30px;
