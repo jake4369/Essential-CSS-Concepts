@@ -16,19 +16,52 @@ body {
   color: #2b283a;
 }
 
-/* HEADER */
-header {
-  background: #5f29a3;
-  padding: 45px 0;
-}
+/* TYPOGRAPHY */
 
 h1 {
   font-size: 36px;
   color: #f5f5f5;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 h3 {
   font-size: 20px;
   color: #d0aaff;
   margin: 0;
+}
+
+/* LINKS */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+header {
+  background: #5f29a3;
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.main-image {
+  width: 100%;
+  margin-bottom: 30px;
 }
