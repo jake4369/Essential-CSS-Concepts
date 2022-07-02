@@ -31,6 +31,7 @@ h2 .bold-text {
 h1,
 h2 {
   font-weight: 300;
+  margin-top: 0;
 }
 
 h1 {
@@ -44,10 +45,16 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .small-text {
   font-size: 16px;
+  margin-top: 6px;
 }
 
 a {
@@ -63,7 +70,6 @@ a:focus {
 /* LAYOUT */
 header,
 section {
-  width: 100%;
   padding: 100px 0;
 }
 
