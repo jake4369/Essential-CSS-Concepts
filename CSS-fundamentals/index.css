@@ -15,17 +15,30 @@ body {
 }
 
 /* TYPOGRAPHY */
-.bold-text {
+
+.accent-text {
   display: block;
-  font-weight: 900;
 }
 
-h1 .bold-text {
+.accent-text,
+.name,
+time {
+  font-weight: 900;
+  color: #99d930;
+}
+
+h1 .accent-text {
   font-size: 80px;
 }
 
-h2 .bold-text {
+h2 .accent-text {
   font-size: 60px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
 }
 
 h1 {
@@ -77,6 +90,12 @@ section {
   background: #252525;
 }
 
+.inverse .btn:hover,
+.inverse .btn:focus {
+  color: #252525;
+  background: #fff;
+}
+
 .btn {
   display: inline-block;
   color: #252525;
@@ -91,10 +110,4 @@ section {
 .btn:focus {
   color: #fff;
   background: #252525;
-}
-
-.btn-inverse:hover,
-.btn-inverse:focus {
-  color: #252525;
-  background: #fff;
 }
